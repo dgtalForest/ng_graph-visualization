@@ -1,8 +1,8 @@
 <div class="graph-container">
 
   <ngx-graph class="chart-container" [view]="view" [links]="hierarchicalGraph.links"
-    (legendLabelClick)="onLegendLabelClick($event)" [nodes]="hierarchicalGraph.nodes" [scheme]="colorScheme"
-    [orientation]="orientation" [curve]="curve" (select)="select($event)" [zoomSpeed]="zoomSpeed" [update$]="update$"
+    [nodes]="hierarchicalGraph.nodes" [scheme]="colorScheme"
+    [orientation]="orientation" [curve]="curve"  [zoomSpeed]="zoomSpeed" [update$]="update$"
     [zoomToFit$]="zoomToFit$" [autoZoom]="autoZoom">
 
     <ng-template #defsTemplate>

@@ -1,3 +1,3 @@
 # ngx-graph-angular
 
-Demo: https://rat17sri.github.io/ngx-graph-angular/
+Demo: https://dgtalforest.github.io/ng_graph-visualization/
